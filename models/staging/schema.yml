@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: marathon_raw
+    schema: STAGING
+    tables:
+      - name: raw_runners
+      - name: raw_results
