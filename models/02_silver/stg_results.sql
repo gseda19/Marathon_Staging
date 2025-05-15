@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('marathon_raw', 'raw_results') }}
