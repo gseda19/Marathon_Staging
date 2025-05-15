@@ -5,3 +5,8 @@ sources:
     tables:
       - name: raw_runners
       - name: raw_results
+models:
+  - name: stg_runners
+    access: public
+  - name: stg_results
+    access: public
