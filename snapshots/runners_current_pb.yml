@@ -1,5 +1,5 @@
 snapshots:
-  - name: runner_results_snapshot
+  - name: runners_current_pb
     relation: ref('runner_results')
     config:
       schema: snapshots
