@@ -1,0 +1,10 @@
+snapshots:
+  - name: runner_results_snapshot
+    relation: ref('runner_results')
+    config:
+      schema: snapshots
+      database: analytics
+      unique_key: "runner_id || '-' || event"
+      strategy: check
+      check_cols: 
+        - time_minutes
