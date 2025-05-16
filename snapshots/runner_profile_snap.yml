@@ -1,0 +1,11 @@
+snapshots:
+  - name: runner_profile_snap
+    relation: ref('stg_runners')
+    config:
+      schema: snapshots
+      database: analytics
+      unique_key: runner_id
+      strategy: check
+      check_cols:
+        - name
+        - gender
