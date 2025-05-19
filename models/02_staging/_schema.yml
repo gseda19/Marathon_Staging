@@ -5,5 +5,3 @@ models:
     access: public
   - name: stg_results
     access: public
-  - name: stg_results_2
-    access: public
