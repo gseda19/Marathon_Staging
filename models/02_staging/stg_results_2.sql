@@ -1,6 +1,6 @@
 with results as (
     select *
-    from {{ ref('stg_results') }}
+    from {{ source('marathon_raw', 'raw_results') }}
 ),
 
 events as (
