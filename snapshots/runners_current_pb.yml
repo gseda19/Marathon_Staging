@@ -8,3 +8,5 @@ snapshots:
       strategy: check
       check_cols: 
         - time_minutes
+    access: public
+    

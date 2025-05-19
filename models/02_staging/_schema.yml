@@ -5,7 +5,3 @@ models:
     access: public
   - name: stg_results
     access: public
-snapshots:
-  - name: runner_profile_snap
-    access: public
-  - name: runners_current_pb
