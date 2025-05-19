@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: runners_profile_snap
+    access: public
+  - name: runners_current_pb
+    access: public
