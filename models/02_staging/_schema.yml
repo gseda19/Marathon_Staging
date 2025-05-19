@@ -5,3 +5,6 @@ models:
     access: public
   - name: stg_results
     access: public
+snapshots:
+  - name: runner_profile_snap.yml
+    access: public
