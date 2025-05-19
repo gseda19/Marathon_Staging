@@ -37,6 +37,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   marathon_staging:
-    # Applies to all files under models/example/
+    # Applies to all files under models/02_staging/
     02_staging:
       +materialized: table
+    # Applies to all files under models/snapshots/
+    snapshots:
+      +access: public

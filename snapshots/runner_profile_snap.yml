@@ -9,4 +9,3 @@ snapshots:
       check_cols:
         - name
         - gender
-    access: public
