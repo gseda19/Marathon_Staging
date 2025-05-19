@@ -41,5 +41,5 @@ models:
     02_staging:
       +materialized: table
     # Applies to all files under models/snapshots/
-    snapshots:
-      +access: public
+  snapshots:
+    +access: public
