@@ -2,6 +2,4 @@ version: 2
 
 models:
   - name: stg_runners
-    access: public
   - name: stg_results
-    access: public
